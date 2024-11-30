@@ -9,7 +9,7 @@ public class SimpleDBC {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/menagerie";
             String login = "root@localhost";
-            String password = "Matematika2000";
+            String password = "password";
             Connection connection = DriverManager.getConnection(url,login, password);
             try {
                 Statement statment = connection.createStatement();
